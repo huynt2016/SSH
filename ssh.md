@@ -84,6 +84,7 @@
 ####b.Mở một kênh
 - Khi một bên muốn mở kênh mới, nó gán một số cục bộ cho kênh, sau đó gửi thông điệp `SSH_MSG_CHANNEL_OPEN` đến bên kia
 - Phía bên nhận quyết định mở kênh hoặc không và trả lời theo một trong hai cách sau
+
 `SSH_MSG_CHANNEL_OPEN_CONFIRMATION`
 
 `SSH_MSG_CHANNEL_OPEN_FAILURE`
